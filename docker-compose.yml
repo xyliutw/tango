@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: tango_api
     ports:
-      - "8000:8000"
+      - "8080:8080"
     environment:
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432

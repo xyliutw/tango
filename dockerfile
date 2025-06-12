@@ -25,4 +25,4 @@ ENV POSTGRES_DB=tango
 EXPOSE 8000
 
 # Start the FastAPI application
-CMD ["pipenv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["pipenv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080", "--reload"]
